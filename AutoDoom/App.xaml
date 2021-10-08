@@ -1,0 +1,18 @@
+﻿<prism:PrismApplication x:Class="AutoDoom.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AutoDoom.Views"
+             xmlns:prism="http://prismlibrary.com/">
+    <Application.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="Spliter" Color="#525252" />
+            <SolidColorBrush x:Key="LightGrey" Color="#A7A8A9"/>
+            <SolidColorBrush x:Key="Background" Color="#FF1E1E1E"/>
+            <SolidColorBrush x:Key="Dock" Color="#FF333333"/>
+            <SolidColorBrush x:Key="LightBorder" Color="#55555E"/>
+            <SolidColorBrush x:Key="Letter" Color="#E8E8E9"/>
+            <SolidColorBrush x:Key="NewProjectHover" Color="#575A61"/>
+            <SolidColorBrush x:Key="NewProjectDown" Color="#797D87"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</prism:PrismApplication>

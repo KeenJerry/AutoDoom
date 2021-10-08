@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\CreateProcessWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HelpControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SettingsControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\StartControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Assets\Resources\Project\CreateProcessTextBoxStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Assets\Resources\Project\NewProjectButtonTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Assets\Resources\Project\SelectLocationButtonTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Assets\Resources\StartUpNavi\StartUpNaviTemplates.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Assets\Resources\TopBar\TopBarButtonTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CreateProcessWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HelpControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SettingsControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\StartControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\StartUpWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
